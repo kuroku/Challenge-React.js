@@ -1,0 +1,7 @@
+#page-layout {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-color);
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
