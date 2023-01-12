@@ -1,0 +1,27 @@
+.text-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.text-field label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--text-color);
+}
+
+.text-field input {
+  border: none;
+  border: 1px solid var(--input-border-color);
+  background: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+
