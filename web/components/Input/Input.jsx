@@ -5,12 +5,13 @@ export default function Input({
   label = 'Label', 
   placeholder = 'placeholder',
   required = false,
+  type,
   register
 }) {
   return (
     <div className={style['text-field']}>
       <label htmlFor={id}>{label} {required && '*'}</label>
-      <input id={id} {...register} required={required} placeholder={placeholder}/>
+      <input id={id} type={type} {...register} required={required} placeholder={placeholder}/>
     </div>
   )
 }

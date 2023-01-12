@@ -16,8 +16,8 @@ export default function Login() {
   return (
     <main id={style.login}>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <Input label="Email" id="email" required type="email" register={register('email')}/>
-        <Input label="Password" id="password" required type="email" register={register('password')}/>
+        <Input label="Email" id="email" required type="email" register={register('email')} placeholder="Enter your email"/>
+        <Input label="Password" id="password" required type="password" register={register('password')} placeholder="Enter your passowrd"/>
         <Button icon="arrow_right_alt" type="submit">Login</Button>
       </form>
     </main>
