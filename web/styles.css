@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+:root {
+  --primary-color: #2991E0;
+  --primary-on-color: white;
+  --background-color: #F7F9FC;
+  --surface-color: white;
+  --text-color: #636C7E;
+  --input-border-color: #DEDFE3;
+}
+
