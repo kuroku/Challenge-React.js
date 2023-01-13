@@ -1,0 +1,32 @@
+#profile-university {
+  background-color: var(--surface-color);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 12px 18px rgba(0, 0, 0, 0.1);
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 0;
+}
+
+#profile-university h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--text-high-color);
+}
+
+#profile-university p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--text-color);
+}
+
+#profile-university ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

@@ -1,0 +1,6 @@
+#search-box-university {
+  width: 100%;
+  max-width: 580px;
+  position: relative;
+  z-index: 3;
+}

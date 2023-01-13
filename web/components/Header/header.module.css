@@ -21,6 +21,9 @@
   gap: 50px;
 }
 
+#appbar ul a {
+  text-decoration: none;
+}
 
 #appbar ul li {
   text-decoration: none;
@@ -29,6 +32,7 @@
   line-height: 160%;
   color: var(--text-color);
   list-style-type: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 460px) {
